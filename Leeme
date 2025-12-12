@@ -1,0 +1,66 @@
+// ---------------------------------------
+//     RULETA DE MIRAS 
+// ---------------------------------------
+
+bind "mwheeldown" "xhnext"
+alias xhnext "xh1"
+
+alias xh1  "cl_crosshairsize 2; cl_crosshairgap -3; cl_crosshairthickness 0.5; cl_crosshaircolor 1; alias xhnext xh2"
+alias xh2  "cl_crosshairsize 2; cl_crosshairgap -1; cl_crosshairthickness 0.5; cl_crosshaircolor 5; alias xhnext xh3"
+alias xh3  "cl_crosshairsize 1.5; cl_crosshairgap -3; cl_crosshairthickness 0; cl_crosshaircolor 4; alias xhnext xh4"
+alias xh4  "cl_crosshairsize 1; cl_crosshairgap -2; cl_crosshairthickness 0.5; cl_crosshaircolor 5; alias xhnext xh5"
+alias xh5  "cl_crosshairsize 1; cl_crosshairgap -1; cl_crosshairthickness 0.5; cl_crosshaircolor 2; alias xhnext xh6"
+
+alias xh6  "cl_crosshairsize 0.5; cl_crosshairgap -4; cl_crosshairthickness 0; cl_crosshaircolor 1; alias xhnext xh7"
+alias xh7  "cl_crosshairsize 1; cl_crosshairgap -5; cl_crosshairthickness 0; cl_crosshaircolor 5; alias xhnext xh8"
+alias xh8  "cl_crosshairsize 0; cl_crosshairdot 1; cl_crosshaircolor 4; alias xhnext xh9"
+alias xh9  "cl_crosshairsize 0.5; cl_crosshairgap -3; cl_crosshairthickness 0.3; cl_crosshaircolor 3; alias xhnext xh10"
+alias xh10 "cl_crosshairsize 1; cl_crosshairgap -1; cl_crosshairthickness 0.3; cl_crosshaircolor 2; alias xhnext xh11"
+
+alias xh11 "cl_crosshairsize 3; cl_crosshairgap -2; cl_crosshairthickness 1; cl_crosshaircolor 0; alias xhnext xh12"
+alias xh12 "cl_crosshairsize 2; cl_crosshairgap -4; cl_crosshairthickness 1; cl_crosshaircolor 5; alias xhnext xh13"
+alias xh13 "cl_crosshairsize 4; cl_crosshairgap -1; cl_crosshairthickness 1; cl_crosshaircolor 3; alias xhnext xh14"
+alias xh14 "cl_crosshairsize 2.5; cl_crosshairgap -3; cl_crosshairthickness 0.8; cl_crosshaircolor 4; alias xhnext xh15"
+alias xh15 "cl_crosshairsize 1; cl_crosshairgap -2; cl_crosshairthickness 1; cl_crosshaircolor 5; alias xhnext xh16"
+
+alias xh16 "cl_crosshairsize 20; cl_crosshairgap 5; cl_crosshairthickness 2; cl_crosshaircolor 1; alias xhnext xh17"
+alias xh17 "cl_crosshairsize 15; cl_crosshairgap -2; cl_crosshairthickness 3; cl_crosshaircolor 4; alias xhnext xh18"
+alias xh18 "cl_crosshairsize 30; cl_crosshairgap 10; cl_crosshairthickness 5; cl_crosshaircolor 2; alias xhnext xh19"
+alias xh19 "cl_crosshairsize 50; cl_crosshairgap 20; cl_crosshairthickness 4; cl_crosshaircolor 5; alias xhnext xh20"
+alias xh20 "cl_crosshairsize 25; cl_crosshairgap -10; cl_crosshairthickness 4; cl_crosshaircolor 3; alias xhnext xh21"
+
+alias xh21 "cl_crosshairsize 0; cl_crosshairdot 1; cl_crosshaircolor 0; alias xhnext xh22"
+alias xh22 "cl_crosshairsize 1; cl_crosshairgap 100; cl_crosshairthickness 1; cl_crosshaircolor 1; alias xhnext xh23"
+alias xh23 "cl_crosshairsize 0; cl_crosshairdot 0; cl_crosshairthickness 0; alias xhnext xh24"
+alias xh24 "cl_crosshairsize 0; cl_crosshairgap -10; cl_crosshaircolor 5; alias xhnext xh25"
+alias xh25 "cl_crosshairsize 1; cl_crosshairgap -20; cl_crosshairthickness 0; cl_crosshaircolor 2; alias xhnext xh26"
+
+alias xh26 "cl_crosshairsize 10; cl_crosshairgap -15; cl_crosshairthickness 1; cl_crosshaircolor 4; alias xhnext xh27"
+alias xh27 "cl_crosshairsize 5; cl_crosshairgap -8; cl_crosshairthickness 2; cl_crosshaircolor 2; alias xhnext xh28"
+alias xh28 "cl_crosshairsize 8; cl_crosshairgap -12; cl_crosshairthickness 0.5; cl_crosshaircolor 5; alias xhnext xh29"
+alias xh29 "cl_crosshairsize 12; cl_crosshairgap -5; cl_crosshairthickness 0.3; cl_crosshaircolor 1; alias xhnext xh30"
+alias xh30 "cl_crosshairsize 4; cl_crosshairgap -6; cl_crosshairthickness 2; cl_crosshaircolor 3; alias xhnext xh31"
+
+alias xh31 "cl_crosshairsize 2; cl_crosshairgap -2; cl_crosshairthickness 0.5; cl_crosshaircolor 4; alias xhnext xh32"
+alias xh32 "cl_crosshairsize 1.5; cl_crosshairgap -3; cl_crosshairthickness 0.5; cl_crosshaircolor 1; alias xhnext xh33"
+alias xh33 "cl_crosshairsize 1; cl_crosshairgap -2; cl_crosshairthickness 1; cl_crosshaircolor 2; alias xhnext xh34"
+alias xh34 "cl_crosshairsize 3; cl_crosshairgap -2; cl_crosshairthickness 0.3; cl_crosshaircolor 5; alias xhnext xh35"
+alias xh35 "cl_crosshairsize 2; cl_crosshairgap -1; cl_crosshairthickness 0.3; cl_crosshaircolor 3; alias xhnext xh36"
+
+alias xh36 "cl_crosshairsize 6; cl_crosshairgap -2; cl_crosshairthickness 1; cl_crosshaircolor 1; alias xhnext xh37"
+alias xh37 "cl_crosshairsize 7; cl_crosshairgap -3; cl_crosshairthickness 0.7; cl_crosshaircolor 4; alias xhnext xh38"
+alias xh38 "cl_crosshairsize 9; cl_crosshairgap -4; cl_crosshairthickness 1; cl_crosshaircolor 5; alias xhnext xh39"
+alias xh39 "cl_crosshairsize 6; cl_crosshairgap -1; cl_crosshairthickness 2; cl_crosshaircolor 3; alias xhnext xh40"
+alias xh40 "cl_crosshairsize 8; cl_crosshairgap -3; cl_crosshairthickness 1; cl_crosshaircolor 2; alias xhnext xh41"
+
+alias xh41 "cl_crosshairsize 40; cl_crosshairgap 0; cl_crosshairthickness 3; cl_crosshaircolor 1; alias xhnext xh42"
+alias xh42 "cl_crosshairsize 1; cl_crosshairgap -50; cl_crosshairthickness 0.5; cl_crosshaircolor 4; alias xhnext xh43"
+alias xh43 "cl_crosshairsize 0; cl_crosshairdot 1; cl_crosshaircolor 5; cl_crosshairthickness 3; alias xhnext xh44"
+alias xh44 "cl_crosshairsize 100; cl_crosshairgap 0; cl_crosshairthickness 1; cl_crosshaircolor 3; alias xhnext xh45"
+alias xh45 "cl_crosshairsize 10; cl_crosshairgap 100; cl_crosshairthickness 5; cl_crosshaircolor 2; alias xhnext xh46"
+
+alias xh46 "cl_crosshairsize 70; cl_crosshairgap -40; cl_crosshairthickness 6; cl_crosshaircolor 5; alias xhnext xh47"
+alias xh47 "cl_crosshairsize 5; cl_crosshairgap -20; cl_crosshairthickness 10; cl_crosshaircolor 1; alias xhnext xh48"
+alias xh48 "cl_crosshairsize 15; cl_crosshairgap -40; cl_crosshairthickness 0.2; cl_crosshaircolor 4; alias xhnext xh49"
+alias xh49 "cl_crosshairsize 2; cl_crosshairgap 20; cl_crosshairthickness 4; cl_crosshaircolor 0; alias xhnext xh50"
+alias xh50 "cl_crosshairsize 25; cl_crosshairgap -25; cl_crosshairthickness 8; cl_crosshaircolor 2; alias xhnext xh1"
